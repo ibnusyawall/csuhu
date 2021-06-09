@@ -11,7 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/style.css">
-    <title>Hello, world!</title>
+    <title>Konversi Suhu | CSUHU</title>
 </head>
 
 <body>
@@ -54,52 +54,11 @@
         crossorigin="anonymous"></script>
     <script>
         $(document).ready(function () {
-            /** 
+            /** Konversi Suhu, We're is open to contribute!
             * 1 = Celcius
             * 2 = Farenheit
             * 3 = Kelvin
             **/
-
-            // var val1 = '1'
-            // var val2 = '2'
-
-            // switch ($('.select-suhu1').val()) {
-            //     case '1':
-            //         break;
-            //     case '2':
-            //         break;
-            //     case '3':
-            //         break;
-            //     default:
-            //         break;
-            // }
-            // $('.select-suhu1').change(() => {
-            //     val1 = $(this).children("option:selected").val();
-            // })
-
-
-
-            // console.log(val1)
-            // let select1 = $('#select-suhu1').val()
-            // let select2 = $('#select-suhu2')
-
-            // switch (select1) {
-            //     case ''
-            // }
-            // let vb1 = $('.select-suhu1').children('option:selected').val()
-            // let vb2 = $('.select-suhu2').children('option:selected').val()
-
-            // $('.select-suhu1').change(function () {
-            //     $(this).children('option:selected').val() == $('.select-suhu2').children('option:selected').val() ? $(this).children('option:selected').val(vb1) : $(this).children('option:selected').val()
-            // });
-
-            // $('.select-suhu2').change(function () {
-            //     $(this).children('option:selected').val() == $('.select-suhu1').children('option:selected').val() ? $(this).children('option:selected').val($('.select-suhu1').children('option:selected').val()) : $(this).children('option:selected').val()
-            // });
-
-            // $('.select-suhu2').change(function () {
-            //     vb2 = $(this).children('option:selected').val()
-            // });
             $('#suhu1').on('input', () => {
                 let vas1 = $('.select-suhu1').children('option:selected').val()
                 let vas2 = $('.select-suhu2').children('option:selected').val()
@@ -168,7 +127,6 @@
                         }
                         break;
                 }
-                //$('#suhu2').val($('#suhu1').val())
             })
         })
     </script>
